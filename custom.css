@@ -1,0 +1,55 @@
+body { 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+h1, h2, h3 { 
+  color: #2c3e50; 
+  border-bottom: 2px solid #3498db; 
+  padding-bottom: 5px; 
+}
+.alert { 
+  padding: 15px; 
+  margin: 20px 0; 
+  border: 1px solid transparent; 
+  border-radius: 4px; 
+}
+.alert-info { 
+  color: #31708f; 
+  background-color: #d9edf7; 
+  border-color: #bce8f1; 
+}
+.alert-success { 
+  color: #3c763d; 
+  background-color: #dff0d8; 
+  border-color: #d6e9c6; 
+}
+.alert-warning { 
+  color: #8a6d3b; 
+  background-color: #fcf8e3; 
+  border-color: #faebcc; 
+}
+.code-block { 
+  background-color: #f8f9fa; 
+  padding: 15px; 
+  border-left: 4px solid #007bff; 
+  margin: 15px 0; 
+}
+.tip-box { 
+  background-color: #e8f5e8; 
+  padding: 15px; 
+  border-left: 4px solid #28a745; 
+  margin: 15px 0; 
+}
+.important-box { 
+  background-color: #fff3cd; 
+  padding: 15px; 
+  border-left: 4px solid #ffc107; 
+  margin: 15px 0; 
+}
+/* TOC active item fix */
+.tocify .tocify-item.active,
+.tocify .tocify-item.active a,
+.tocify .tocify-subheader .tocify-item.active,
+.tocify .tocify-subheader .tocify-item.active a {
+  color: white !important;
+  background-color: #3498db !important;
+}
