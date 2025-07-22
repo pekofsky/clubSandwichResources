@@ -1,6 +1,8 @@
 # Jekyll Configuration
 title: "clubSandwich Intern Resources"
 description: "Resources for clubSandwich Interns"
+baseurl: "/clubSandwichResources"  # Must match your repository name
+url: "https://pekofsky.github.io"  # Your GitHub Pages domain
 
 # Build settings
 markdown: kramdown
