@@ -1,0 +1,158 @@
+---
+title: "Getting Started For clubSandwich Interns"
+output:
+  pdf_document: 
+    latex_engine: pdflatex
+    keep_tex: true
+description: A comprehensive guide for new interns starting with the clubSandwich package
+---
+
+> **Welcome to the clubSandwich Internship!** This comprehensive guide will walk you through everything you need to get started as a clubSandwich intern. Take your time with each section and don't hesitate to reach out for help!
+
+------------------------------------------------------------------------
+
+# Setup
+
+------------------------------------------------------------------------
+
+### R, RStudio, and Updating Packages
+
+> **Quick Start:** Make sure you have the latest versions of R and RStudio before proceeding with the rest of this guide.
+
+**R Installation:** First and foremost, make sure you have the latest version of R installed:
+
+-   Whether or not you have R installed, the easiest way is to use [this link](https://posit.co/download/rstudio-desktop/).
+
+-   If you would like alternative methods to install/update R, I suggest watching [this video](https://youtu.be/MzZXFG7ZcVM).
+
+**RStudio Setup:** Similarly, if you will be using RStudio as your IDE, you'll want the newest version.
+
+-   If you have RStudio installed, all you have to do is look at the top, click **Help**, and then click **Check for Updates**.
+
+-   If not, install the latest version from [here](https://posit.co/download/rstudio-desktop/) (the same link as the one to install R).
+
+> Note: If you would like to use Visual Studio Code with the R extension instead, this should be fine, however, you will have to do some learning on your own, since these instructions are currently tailored to RStudio only.
+
+**Updating Packages:** Lastly, update your R Packages by copying and pasting this into your console, the text box in the bottom left of RStudio:
+
+`update.packages(ask = FALSE, checkBuilt = TRUE)`
+
+### GitHub Setup
+
+For this section, please reference [Happy Git and Github for the useR](https://happygitwithr.com/). You'll also want to bookmark this for later.
+
+**GitHub Account:** If you do not have a GitHub account, skim through [chapter 4](https://happygitwithr.com/github-acct) and create an account.
+
+**Install git:** If you do not have git installed, follow the instructions in [chapter 6](https://happygitwithr.com/install-git).
+
+**Git config:** There are a few helpful settings to change when git is first installed. Refer to [chapter 7](https://happygitwithr.com/hello-git).
+
+**(Optional) Git client:** In my opinion, this step is very unnecessary, especially if you are already familiar with using git in the command line, and even more so if you have used git in UW-Madison CS/DS courses. RStudio has git's most commonly used functions built in, so a git client may feel redundant. This being said, because of [chapter 8](https://happygitwithr.com/git-client), I tried a few git clients, and I would recommend [GitHub Desktop](https://github.com/apps/desktop). In a few specific situations, it has saved me a small amount of time over using the command line.
+
+**PAT/SSH:** Read and follow along with [chapter 9](https://happygitwithr.com/https-pat) to set up a personal access token, which is what both the book's author and I recommend. If you have a reason to prefer SSH, refer to [chapter 10](https://happygitwithr.com/ssh-keys) instead.
+
+**Connect to GitHub:** follow along with [chapter 11](https://happygitwithr.com/push-pull-github).
+
+**Connecting RStudio and Cloning Practice:** Follow along with [chapter 12](https://happygitwithr.com/rstudio-git-github), but I suggest naming your repo `regexcite` this time (this will make sense soon) and skipping 12.7.
+
+### Package Development
+
+We are now going to switch over to the book [R Packages(2e)](https://r-pkgs.org/), which you'll also want to bookmark.
+
+**Setup:** unintuitively, you'll first want to go through [chapter 2](https://r-pkgs.org/setup.html), [not]{.underline} chapter 1. This will take you through the necessary steps to set up your computer for R package development.
+
+**Practice Package:** now that you've gone through all the setup in both books, you're ready to practice developing a package. Follow along with [chapter 1](https://r-pkgs.org/whole-game.html), and take your time. This is going to walk you through your basic workflow and it will be extremely helpful for your own learning. When you reach 1.17, try to use the GitHub repository you made using chapter 12 of Happy Git! If you can successfully figure this out and finish the rest of the chapter, you should be well prepared.
+
+### Setting Up Copilot in RStudio
+
+Occasionally, having copilot autocomplete will be quite helpful, and you can give basic prompts in RStudio using comments like such:
+
+```{r}
+# Make a sequence from -7 to 7, inclusive, increasing by 2
+seq(-7, 7, by = 2)
+```
+
+**GitHub Education:** If you do not have GitHub education yet, I suggest first applying for that at <https://github.com/education>.
+
+**Copilot Settings:** After doing this, you may want to check your settings at <https://github.com/settings/copilot/features>. Make sure you're logged into your github account!
+
+**RStudio:** In RStudio, click [*Tools*]{.underline} at the top, then [*Global Options*]{.underline}, then [*Copilot*]{.underline}.
+
+-   You'll then want to check the [*enable GitHub Copilot*]{.underline} box and log in to your GitHub account.
+
+-   After this, I suggest that you set [*Show Copilot Code Suggestions*]{.underline} to [*Manually*]{.underline}.
+
+    -   Otherwise, Copilot will automatically try to complete what you're doing, and if your goal is on the more complex side, it will likely infer wrong and throw off your workflow.
+
+------------------------------------------------------------------------
+
+# Resources and Advice
+
+------------------------------------------------------------------------
+
+### Helpful Links
+
+> **Bookmark These!** I recommend that you bookmark all of these page links for future reference, as they will all likely come in handy.
+
+-   [View this rendered rmd online](https://pekofsky.github.io/clubSandwichResources/Getting-Started-For-Interns.html)
+-   [Happy Git and Github for the useR](https://happygitwithr.com/)
+-   [R Packages(2e)](https://r-pkgs.org/)
+-   [Advanced R](https://adv-r.hadley.nz/s3.html)
+-   [clubSandwich Website](https://jepusto.github.io/clubSandwich/)
+
+### Other Helpful Resources and Tips
+
+> **AI Usage:** clubSandwich is open source, and James does not mind generative AI usage as long as you proofread it and let him know where AI was used.
+>
+> - ChatGPT, Claude, Gemini, DeepSeek, and plenty of other models, are extremely powerful both for learning and solving coding problems nowadays, and can be used quite a lot for free.
+> - When using AI, remember that context and specificity are extremely important, whether it be for learning or solving a problem.
+>   - The main skill in effective AI usage is figuring out what details will help you get what you're looking for as fast as possible, and what details shouldn't be included because they will throw the model off.
+
+> **Manual Files (Help Pages):** Using `?function` or `?dataset` in R will usually bring up a help page that explains most of what you need to know. This is often faster and more informative than what you'll find on the internet or using AI, so if you are confused about something in R, I suggest using the R manual files before consulting any other resources.
+>
+> - The help pages for clubSandwich functions often include helpful example usecases, which will likely come in handy both for your own understanding of the function and for writing unit tests.
+> - In some cases, you may need to specify the package. For example: Instead of just typing `?lm`, we may need to type `?stats::lm`
+
+**Files within clubSandwich:** Similar to the last bullet point, looking at files that already exist in the package will be very helpful for your own learning and as models for your work. James will often point you to files that will be similar to what he is looking to have you do, so asking what files would be similar is always a good question to ask.
+
+> **James is Here to Help!** Building off of the last sentence, James is extremely receptive to questions, whether it be over email or when you meet with him. He is very good at explaining things and always happy to clarify, and he is here to help you as much as you are here to help him, so if you get stuck, don't hesitate to explain your situation and ask for help.
+>
+> - There was one issue in particular that complete stumped me, and I watched James, who is a much better coder than me, get just as stumped after trying to fix it for almost an hour, until eventually reaching the conclusion that it was a bug related to some things we couldn't control.
+> - **Asking for help doesn't make you a bad coder, but it will definitely help you improve faster and finish your tasks.**
+
+**clubSandwich development folder on Box:** James will share this with you.
+
+-   I skimmed "*Long, Ervin - 2000*" before my first day. While it was a big dense for me at the time, it helped me understand the basic idea of what clubSandwich is for.
+
+-   This folder also has an older file related to resources I found helpful as well as the Rmd, html, and pdf versions of what you are now reading.
+
+> **F2 Shortcut:** When your cursor is within a function and you press F2, RStudio can usually show you the source code for this function. This is especially useful for quickly navigating through clubSandwich files, but it can also be very helpful for understanding other functions that will be interacting with clubSandwich.
+>
+> - If you are confused, ask James to demonstrate
+> - The macro may be different for Macs and some PCs. For mine, I had to press fn + F2
+> - Similar to the help pages, there may be cases where you need to specify the package of the function you are trying to view. For example: Instead of just typing `lm`, we may need to type `stats::lm`
+
+> **Debugging Functions:** `debug()`, `undebug()`, and `debugonce()` all take a function as input.
+>
+> - These functions can change whether other functions are in debug mode, allowing you to step through their execution, which is extremely helpful for solving more complex issues.
+> - **debug** will set a function to debug mode until **undebug** is used on the same function.
+> - **debugonce** will set a function to debug mode for only its next usage, and then it will automatically return to normal.
+
+### General Advice for the Internship and Working with James
+
+> **Key Principles for Success**
+
+**Communication is Key:** Don't be afraid to reach out, whether it be to James or the OSPO people. Everyone is very friendly and wants to help you, as much as, if not more than most of your TAs and professors for your classes.
+
+> **Work Smart, Not Hard:** Try to break your work for the week into at least 2 sittings. This is anecdotal, but everyone I know works better when they do things in multiple focused sessions, instead of one excessively long session. When it comes to coding, often times stepping away and giving your eyes and brain a break will work wonders.
+
+**Take notes for *everything*:**
+
+-   When you talk to James, write down what you learned and what he wants you to do.
+-   When you stop coding for the day, especially if your stopping point does not mark the completion of a clear task, write down as much relevant info as possible, so that next time you start working, it's much easier to resume.
+-   Write down what you've done for the week. This has been very helpful for my meetings with James. For most meetings, I made a bulleted list in advance of what I have done, what I'd like to talk about, and where I got stuck.
+    -   When I did this, our meetings felt very efficient and informative, but the few times I haven't done this or left something out, it slowed things down more than the time it would've taken to plan out what I wanted to talk about. It's definitely worth taking the time to write this stuff down in advance.
+
+> **Learning is Part of the Job:** Remember that learning the requisite information is part of the job. Obviously, the end goal is to write good code, but some weeks you may find that you need to spend most of your time simply learning and understanding in order to do a good job, and that is fine.
+>
+> - The way I like to go about this is that for every 1-2 hours spent trying to learn, I will go back to the code I want to work on and see if I can make any progress. This helps me prevent acquiring superfluous knowledge.
