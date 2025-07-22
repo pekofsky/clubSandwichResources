@@ -84,9 +84,23 @@ seq(-7, 7, by = 2)
 
     -   Otherwise, Copilot will automatically try to complete what you're doing, and if your goal is on the more complex side, it will likely infer wrong and throw off your workflow.
 
+### Making a Pull Request
+
+**How to Make a Pull Request on GitHub:**
+
+1. **Commit your changes** to your branch and push them to GitHub.
+2. Go to your repository (clubSandwich) on GitHub.
+3. Click the **Compare & pull request** button near your branch. If you don't see it, go to the "Pull requests" tab and click **New pull request**, then select your branch.
+4. Add a clear title and description explaining your changes.
+5. If you are **not ready for review**, click the down arrow next to **Create pull request** and select **Create draft pull request**. Otherwise, click **Create pull request**.
+6. To mark a draft pull request as ready for review later, go to the pull request page, and click **Ready for review** at the top.
+7. Wait for feedback or approval from the repository owner (probably James).
+
+> *Tip: Draft pull requests are useful for sharing work-in-progress and getting early feedback before your code is finalized.*
+
 ------------------------------------------------------------------------
 
-# Resources and Advice
+# Resources and Tips
 
 ------------------------------------------------------------------------
 

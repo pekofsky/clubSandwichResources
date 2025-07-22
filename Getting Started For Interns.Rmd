@@ -23,7 +23,7 @@ description: A comprehensive guide for new interns starting with the clubSandwic
 
 ------------------------------------------------------------------------
 
-### <span style="color: #2c3e50;">📦 R, RStudio, and Updating Packages</span>
+### [📦 R, RStudio, and Updating Packages]{style="color: #2c3e50;"}
 
 ::: important-box
 <strong>⚡ Quick Start:</strong> Make sure you have the latest versions of R and RStudio before proceeding with the rest of this guide.
@@ -47,7 +47,7 @@ description: A comprehensive guide for new interns starting with the clubSandwic
 
 `update.packages(ask = FALSE, checkBuilt = TRUE)`
 
-### <span style="color: #2c3e50;">🐙 GitHub Setup</span>
+### [🐙 GitHub Setup]{style="color: #2c3e50;"}
 
 For this section, please reference [Happy Git and Github for the useR](https://happygitwithr.com/). You'll also want to bookmark this for later.
 
@@ -65,7 +65,7 @@ For this section, please reference [Happy Git and Github for the useR](https://h
 
 **Connecting RStudio and Cloning Practice:** Follow along with [chapter 12](https://happygitwithr.com/rstudio-git-github), but I suggest naming your repo `regexcite` this time (this will make sense soon) and skipping 12.7.
 
-### <span style="color: #2c3e50;">📦 Package Development</span>
+### [📦 Package Development]{style="color: #2c3e50;"}
 
 We are now going to switch over to the book [R Packages(2e)](https://r-pkgs.org/), which you'll also want to bookmark.
 
@@ -73,7 +73,7 @@ We are now going to switch over to the book [R Packages(2e)](https://r-pkgs.org/
 
 **Practice Package:** now that you've gone through all the setup in both books, you're ready to practice developing a package. Follow along with [chapter 1](https://r-pkgs.org/whole-game.html), and take your time. This is going to walk you through your basic workflow and it will be extremely helpful for your own learning. When you reach 1.17, try to use the GitHub repository you made using chapter 12 of Happy Git! If you can successfully figure this out and finish the rest of the chapter, you should be well prepared.
 
-### <span style="color: #2c3e50;">🤖 Setting Up Copilot in RStudio</span>
+### [🤖 Setting Up Copilot in RStudio]{style="color: #2c3e50;"}
 
 Occasionally, having copilot autocomplete will be quite helpful, and you can give basic prompts in RStudio using comments like such:
 
@@ -94,13 +94,27 @@ seq(-7, 7, by = 2)
 
     -   Otherwise, Copilot will automatically try to complete what you're doing, and if your goal is on the more complex side, it will likely infer wrong and throw off your workflow.
 
+### [🔀 Making a Pull Request]{style="color: #2c3e50;"}
+
+**How to Make a Pull Request on GitHub:**
+
+1.  **Commit your changes** to your branch and push them to GitHub.
+2.  Go to your repository (clubSandwich) on GitHub.
+3.  Click the **Compare & pull request** button near your branch. If you don't see it, go to the "Pull requests" tab and click **New pull request**, then select your branch.
+4.  Add a clear title and description explaining your changes.
+5.  If you are **not ready for review**, click the down arrow next to **Create pull request** and select **Create draft pull request**. Otherwise, click **Create pull request**.
+6.  To mark a draft pull request as ready for review later, go to the pull request page, and click **Ready for review** at the top.
+7.  Wait for feedback or approval from the repository owner (probably James).
+
+> 💡 *Tip: Draft pull requests are useful for sharing work-in-progress and getting early feedback before your code is finalized.*
+
 ------------------------------------------------------------------------
 
 # 📚 Resources and Tips
 
 ------------------------------------------------------------------------
 
-### <span style="color: #2c3e50;">🔗 Helpful Links</span>
+### [🔗 Helpful Links]{style="color: #2c3e50;"}
 
 ::: {.alert .alert-success}
 <strong>📌 Bookmark These!</strong> I recommend that you bookmark all of these page links for future reference, as they will all likely come in handy.
@@ -112,7 +126,7 @@ seq(-7, 7, by = 2)
 -   🔬 [Advanced R](https://adv-r.hadley.nz/s3.html)
 -   🥪 [clubSandwich Website](https://jepusto.github.io/clubSandwich/)
 
-### <span style="color: #2c3e50;">💡 Other Helpful Resources and Tips</span>
+### [💡 Other Helpful Resources and Tips]{style="color: #2c3e50;"}
 
 ::: tip-box
 <strong>🤖 AI Usage:</strong> clubSandwich is open source, and James does not mind generative AI usage as long as you proofread it and let him know where AI was used.
@@ -196,7 +210,7 @@ When using AI, remember that context and specificity are extremely important, wh
 </ul>
 :::
 
-### <span style="color: #2c3e50;">🎯 General Advice for the Internship and Working with James</span>
+### [🎯 General Advice for the Internship and Working with James]{style="color: #2c3e50;"}
 
 ::: {.alert .alert-success}
 <strong>🤝 Key Principles for Success</strong>
