@@ -4,11 +4,22 @@ author: "Samuel Pekofsky"
 output:
   html_document: default
   pdf_document: default
+description: A comprehensive guide for new interns starting with the clubSandwich package
 ---
+
+```{=html}
+<div style="background-color: #d1ecf1; border: 1px solid #bee5eb; border-radius: 0.25rem; padding: 0.75rem; margin-bottom: 1rem;">
+    <strong>📌 Quick Navigation:</strong> 
+    <a href="helpful-resources.html" style="background-color: #007bff; color: white; padding: 0.25rem 0.5rem; text-decoration: none; border-radius: 0.25rem; margin-left: 0.5rem;">Go to Helpful Resources →</a>
+    <a href="index.html" style="background-color: #007bff; color: white; padding: 0.25rem 0.5rem; text-decoration: none; border-radius: 0.25rem; margin-left: 0.5rem;">Go to Home →</a>
+</div>
+```
 
 ## Hello and welcome!!!
 
 This is an Rmd file, also known as an R markdown document, meant to help you as you are beginning your role as a clubSandwhich intern, both in getting started, and knowing how to approach your work.
+
+
 
 # Setup
 
@@ -60,4 +71,12 @@ We are now going to switch over to the book [R Packages(2e)](https://r-pkgs.org/
 
 ### Helpful Resources :)
 
-
+-   [View this rendered rmd online (easier to bookmark)]()
+-   [View this list online (I highly recommend you bookmark)]()
+-   [Happy Git and Github for the useR](https://happygitwithr.com/)
+-   [R Packages(2e)](https://r-pkgs.org/)
+-   
+-   
+-   
+-   
+-   
