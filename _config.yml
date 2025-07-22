@@ -1,0 +1,31 @@
+# Jekyll Configuration
+title: "clubSandwich Intern Resources"
+description: "Resources for clubSandwich Interns"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Collections
+collections:
+  pages:
+    output: true
+
+# Exclude files from being processed
+exclude:
+  - .Rproj.user/
+  - .Rhistory
+  - .git/
+  - .gitignore
+  - clubSandwichResources.Rproj
+  - Getting Started For Interns.Rmd
+  - Getting-Started-For-Interns.pdf
+
+# Default layouts for different types of content
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"

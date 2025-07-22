@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Getting Started For Interns - Club Sandwich Resources</title>
+    <meta name="description" content="Resources and guides for statistical analysis">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        .navbar-nav .nav-link {
+            font-weight: 500;
+        }
+        .navbar-nav .nav-link.active {
+            font-weight: 700;
+        }
+        .page-navigation {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            margin: 2rem 0;
+            border-radius: 0.375rem;
+            border: 1px solid #dee2e6;
+        }
+        .page-navigation h5 {
+            margin-bottom: 1rem;
+            color: #495057;
+        }
+        .page-navigation .btn {
+            margin: 0.25rem;
+        }
+        footer {
+            margin-top: 3rem;
+            padding: 2rem 0;
+            border-top: 1px solid #dee2e6;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">Club Sandwich Resources</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/getting-started/">Getting Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/helpful-resources/">Helpful Resources</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+        <!-- Page Navigation -->
+        <div class="page-navigation">
+            <h5>Quick Navigation</h5>
+            <a href="/" class="btn btn-outline-primary btn-sm">🏠 Home</a>
+            <a href="/getting-started/" class="btn btn-outline-success btn-sm">📚 Getting Started For Interns</a>
+            <a href="/helpful-resources/" class="btn btn-outline-info btn-sm">🔗 Helpful Resources</a>
+        </div>
+
+        <div class="page-header mb-4">
+    <h1>Getting Started For Interns</h1>
+    
+        <p class="lead">A comprehensive guide for new interns starting with the clubSandwich package</p>
+    
+</div>
+
+<div class="page-content">
+    <!-- Navigation to other page -->
+<div class="alert alert-info">
+    <strong>📌 Quick Navigation:</strong> 
+    <a href="/helpful-resources/" class="btn btn-outline-primary btn-sm ms-2">Go to Helpful Resources →</a>
+</div>
+
+<h2 id="hello-and-welcome">Hello and welcome!!!</h2>
+
+<p>This is an R markdown document, meant to help you as you are beginning your role as a clubSandwich intern, both in getting started, and knowing how to approach your work.</p>
+
+<h1 id="setup">Setup</h1>
+
+<h3 id="r-rstudio-and-updating-packages">R, RStudio, and Updating Packages</h3>
+
+<p><strong>R:</strong> First and foremost, make sure you have the latest version of R installed:</p>
+
+<ul>
+  <li>Whether or not you have R installed, the easiest way is to use <a href="https://posit.co/download/rstudio-desktop/">this link</a>.</li>
+  <li>If you would like alternative methods to install/update R, I suggest watching <a href="https://youtu.be/MzZXFG7ZcVM">this video</a>.</li>
+</ul>
+
+<p><strong>RStudio:</strong> Similarly, if you will be using RStudio as your IDE, you’ll want the newest version.</p>
+
+<ul>
+  <li>If you have RStudio installed, all you have to do is look at the top, click <strong>Help</strong>, and then click <strong>Check for Updates</strong>.</li>
+  <li>If not, install the latest version from <a href="https://posit.co/download/rstudio-desktop/">here</a> (the same link as the one to install R).</li>
+</ul>
+
+<blockquote>
+  <p>Note: If you would like to use Visual Studio Code with the R extension instead, this should be fine, however, you will have to do some learning on your own, since these instructions are currently tailored to RStudio only.</p>
+</blockquote>
+
+<p><strong>Updating Packages:</strong> Lastly, update your R Packages by copying and pasting this into your console, the text box in the bottom left of RStudio:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">update.packages</span><span class="p">(</span><span class="n">ask</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">,</span><span class="w"> </span><span class="n">checkBuilt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="github-d">GitHub :D</h3>
+
+<p>For this section, please reference <a href="https://happygitwithr.com/">Happy Git and Github for the useR</a>. You’ll also want to bookmark this for later.</p>
+
+<p><strong>GitHub Account:</strong> If you do not have a GitHub account, skim through <a href="https://happygitwithr.com/github-acct">chapter 4</a> and create an account.</p>
+
+<p><strong>Install git:</strong> If you do not have git installed, follow the instructions in <a href="https://happygitwithr.com/install-git">chapter 6</a>.</p>
+
+<p><strong>Git config:</strong> There are a few helpful settings to change when git is first installed. Refer to <a href="https://happygitwithr.com/hello-git">chapter 7</a>.</p>
+
+<p><strong>(Optional) Git client:</strong> In my opinion, this step is very unnecessary, especially if you are already familiar with using git in the command line, and even more so if you have used git in UW-Madison CS/DS courses. RStudio has git’s most commonly used functions built in, so a git client may feel redundant. This being said, because of <a href="https://happygitwithr.com/git-client">chapter 8</a>, I tried a few git clients, and I would recommend <a href="https://github.com/apps/desktop">GitHub Desktop</a>. In a few specific situations, it has saved me a small amount of time over using the command line.</p>
+
+<p><strong>PAT/SSH:</strong> Read and follow along with <a href="https://happygitwithr.com/https-pat">chapter 9</a> to set up a personal access token, which is what both the book’s author and I recommend. If you have a reason to prefer SSH, refer to <a href="https://happygitwithr.com/ssh-keys">chapter 10</a> instead.</p>
+
+<p><strong>Connect to GitHub:</strong> follow along with <a href="https://happygitwithr.com/push-pull-github">chapter 11</a>.</p>
+
+<p><strong>Connecting RStudio and Cloning Practice:</strong> Follow along with <a href="https://happygitwithr.com/rstudio-git-github">chapter 12</a>, but I suggest naming your repo <code class="language-plaintext highlighter-rouge">regexcite</code> this time (this will make sense soon) and skipping 12.7.</p>
+
+<h3 id="packages">Packages!</h3>
+
+<p>We are now going to switch over to the book <a href="https://r-pkgs.org/">R Packages(2e)</a>, which you’ll also want to bookmark.</p>
+
+<p><strong>Setup:</strong> unintuitively, you’ll first want to go through <a href="https://r-pkgs.org/setup.html">chapter 2</a>, <u>not</u> chapter 1. This will take you through the necessary steps to set up your computer for R package development.</p>
+
+<p><strong>Practice Package:</strong> now that you’ve gone through all the setup in both books, you’re ready to practice developing a package. Follow along with <a href="https://r-pkgs.org/whole-game.html">chapter 1</a>, and take your time. This is going to walk you through your basic workflow and it will be extremely helpful for your own learning. When you reach 1.17, try to use the GitHub repository you made using chapter 12 of Happy Git! If you can successfully figure this out and finish the rest of the chapter, you should be well prepared.</p>
+
+<hr />
+
+<!-- Navigation to other page -->
+<div class="alert alert-light border text-center mt-4">
+    <strong>Next:</strong> Once you're comfortable with the setup, check out our 
+    <a href="/helpful-resources/" class="btn btn-primary btn-sm">Helpful Resources</a> 
+    for additional tools and references.
+</div>
+
+</div>
+
+    </main>
+
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="text-center text-muted">
+                <p>&copy; 2025 Club Sandwich Resources. Built with Jekyll.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
