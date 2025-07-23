@@ -61,7 +61,7 @@ For this section, please reference [Happy Git and Github for the useR](https://h
 
 **PAT/SSH:** Read and follow along with [chapter 9](https://happygitwithr.com/https-pat) to set up a personal access token, which is what both the book's author and I recommend. If you have a reason to prefer SSH, refer to [chapter 10](https://happygitwithr.com/ssh-keys) instead.
 
-**Connect to GitHub:** follow along with [chapter 11](https://happygitwithr.com/push-pull-github).
+**Connect to GitHub:** Follow along with [chapter 11](https://happygitwithr.com/push-pull-github).
 
 **Connecting RStudio and Cloning Practice:** Follow along with [chapter 12](https://happygitwithr.com/rstudio-git-github), but I suggest naming your repo `regexcite` this time (this will make sense soon) and skipping 12.7.
 
@@ -69,7 +69,7 @@ For this section, please reference [Happy Git and Github for the useR](https://h
 
 We are now going to switch over to the book [R Packages(2e)](https://r-pkgs.org/), which you'll also want to bookmark.
 
-**Setup:** unintuitively, you'll first want to go through [chapter 2](https://r-pkgs.org/setup.html), [not]{.underline} chapter 1. This will take you through the necessary steps to set up your computer for R package development.
+**Setup:** Counterintuitively, start with [chapter 2](https://r-pkgs.org/setup.html) instead of chapter 1. This will take you through the necessary steps to set up your computer for R package development.
 
 **Practice Package:** now that you've gone through all the setup in both books, you're ready to practice developing a package. Follow along with [chapter 1](https://r-pkgs.org/whole-game.html), and take your time. This is going to walk you through your basic workflow and it will be extremely helpful for your own learning. When you reach 1.17, try to use the GitHub repository you made using chapter 12 of Happy Git! If you can successfully figure this out and finish the rest of the chapter, you should be well prepared.
 
@@ -84,7 +84,7 @@ seq(-7, 7, by = 2)
 
 **GitHub Education:** If you do not have GitHub education yet, I suggest first applying for that at <https://github.com/education>.
 
-**Copilot Settings:** After doing this, you may want to check your settings at <https://github.com/settings/copilot/features>. Make sure you're logged into your github account!
+**Copilot Settings:** After doing this, you may want to check your settings at <https://github.com/settings/copilot/features>. Make sure you're logged into your GitHub account!
 
 **RStudio:** In RStudio, click [*Tools*]{.underline} at the top, then [*Global Options*]{.underline}, then [*Copilot*]{.underline}.
 
@@ -165,7 +165,7 @@ When using AI, remember that context and specificity are extremely important, wh
 **📁 Files within clubSandwich:** Similar to the last bullet point, looking at files that already exist in the package will be very helpful for your own learning and as models for your work. James will often point you to files that will be similar to what he is looking to have you do, so asking what files would be similar is always a good question to ask.
 
 ::: {.alert .alert-info}
-<strong>👨‍🏫 James is Here to Help!</strong> Building off of the last sentence, James is extremely receptive to questions, whether it be over email or when you meet with him. He is very good at explaining things and always happy to clarify, and he is here to help you as much as you are here to help him, so if you get stuck, don't hesitate to explain your situation and ask for help.
+<strong>👨‍🏫 James is Here to Help!</strong> Building off of the last sentence, James is extremely receptive to questions, especially over email, on github, and during meetings.
 
 <ul>
 
@@ -178,7 +178,7 @@ When using AI, remember that context and specificity are extremely important, wh
 
 **📦 clubSandwich development folder on Box:** James will share this with you.
 
--   I skimmed "*Long, Ervin - 2000*" before my first day. While it was a big dense for me at the time, it helped me understand the basic idea of what clubSandwich is for.
+-   I skimmed "*Long, Ervin - 2000*" before my first day. While it was a bit dense for me at the time, it helped me understand the basic idea of what clubSandwich is for.
 
 -   This folder also has an older file related to resources I found helpful as well as the Rmd, html, and pdf versions of what you are now reading.
 
@@ -205,7 +205,7 @@ When using AI, remember that context and specificity are extremely important, wh
 
 <li><strong>debug</strong> will set a function to debug mode until <strong>undebug</strong> is used on the same function.</li>
 
-<li><strong>debugonce</strong> will set a function to debug mode for only its next usage, and then it will automatically return to normal.</li>
+<li><strong>debugonce</strong> will set a function to debug mode for its next usage, automatically returning to normal afterward.</li>
 
 </ul>
 :::
