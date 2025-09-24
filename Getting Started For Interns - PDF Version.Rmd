@@ -9,6 +9,8 @@ description: A comprehensive guide for new interns starting with the clubSandwic
 
 > **Welcome to the clubSandwich Internship!** This comprehensive guide will walk you through everything you need to get started as a clubSandwich intern. Take your time with each section and don't hesitate to reach out for help!
 
+> Click [this link](https://pekofsky.github.io/clubSandwichResources/Getting-Started-For-Interns.html) if you would like to view this file on the web (it's much prettier). Alternatively, you can type the url: https://pekofsky.github.io/clubSandwichResources/Getting-Started-For-Interns.html.
+
 ------------------------------------------------------------------------
 
 # Setup
